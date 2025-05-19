@@ -17,7 +17,7 @@ __pycache__/
 # Логи
 *.log
 
-# Файлы IDE (например, VS Code, PyCharm)
+# Файлы IDE
 .vscode/
 .idea/
 
@@ -31,12 +31,12 @@ Thumbs.db
 *.swp
 *~
 
-# Скомпилированные файлы и артефакты
+# Скомпилированные файлы
 dist/
 build/
 *.egg-info/
 
-# Тестовые и отладочные файлы
+# Тестовые файлы
 *.pytest_cache/
 coverage/
 .coverage
