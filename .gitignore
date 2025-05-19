@@ -1,0 +1,43 @@
+# Виртуальное окружение
+venv/
+.env
+
+# Секреты и конфиденциальные файлы
+*.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Временные файлы Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Логи
+*.log
+
+# Файлы IDE (например, VS Code, PyCharm)
+.vscode/
+.idea/
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+
+# Кэш и временные файлы
+*.cache
+*.bak
+*.swp
+*~
+
+# Скомпилированные файлы и артефакты
+dist/
+build/
+*.egg-info/
+
+# Тестовые и отладочные файлы
+*.pytest_cache/
+coverage/
+.coverage
+*.prof
